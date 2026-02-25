@@ -144,7 +144,7 @@ echo "    <li><a href=\"/destinations/tokyometrogame.php\" class=\"dropdown-item
       <ul class=\"navbar-nav\">
         <li class=\"nav-item dropdown\">
            <li class=\"nav-item\">
-           <a href=\"/myforum.php\"class=\"nav-link navbar-brand border-0 navbar-light bg-light caret-off dropdown-toggle \">Forum</a></li>
+           <a href=\"/contact.php\"class=\"nav-link navbar-brand border-0 navbar-light bg-light caret-off dropdown-toggle \">Contact</a></li>
   </ul>
   
         </li>
@@ -177,7 +177,18 @@ if($_SERVER['REMOTE_ADDR']=='111.220.139.253' or  $_SERVER['REMOTE_ADDR']=='127.
         </li> 
         </li>
       </ul> 
-      
+     
+	 <div class=\"collapse navbar-collapse\" id=\"navbarNavDarkDropdown\">
+      <ul class=\"navbar-nav\">
+        <li class=\"nav-item dropdown\">
+           <li class=\"nav-item\">
+           <a href=\"/easylife/message.php\" class=\"nav-link navbar-brand border-0 navbar-light bg-light caret-off dropdown-toggle \" >Message</a>
+        </li> 
+        </li>
+      </ul> 
+
+
+ 
       ";
 }
       echo "

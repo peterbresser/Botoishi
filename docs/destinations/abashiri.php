@@ -2,7 +2,7 @@
 
 include("/var/www/botoishi/config.php");
 include  $_SERVER['DOCUMENT_ROOT']."/header.php";
-
+###TEST
 
 include BASEPATH ."/docs/menu.php";
 
