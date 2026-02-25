@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Japan Railway Stations Map</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Leaflet CSS -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""
+  />
+
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+    #map {
+      width: 100%;
+      height: 100%;
+    }
+    .station-popup {
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+
+  <!-- Leaflet JS -->
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""
+  ></script>
+
+  <script>
+    // Initialize map centered roughly on Japan
+    const map = L.map('map').setView([36.2048, 138.2529], 5);
+
+    // Add OpenStreetMap tile layer
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution:
+        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    // Overpass API query:
+    // Get all nodes and ways with railway=station in Japan (area by ISO code)
+    const overpassQuery = `
+      [out:json][timeout:180];
+      area["ISO3166-1"="JP"][admin_level=2]->.japan;
+      (
+        node["railway"="station"](area.japan);
+        way["railway"="station"](area.japan);
+      );
+      out center;
+    `;
+
+    const overpassUrl = 'https://overpass-api.de/api/interpreter';
+
+    async function loadStations() {
+      try {
+        const response = await fetch(overpassUrl, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'
+          },
+          body: 'data=' + encodeURIComponent(overpassQuery)
+        });
+
+        if (!response.ok) {
+          console.error('Overpass API error:', response.statusText);
+          return;
+        }
+
+        const data = await response.json();
+        addStationsToMap(data);
+      } catch (err) {
+        console.error('Error fetching stations:', err);
+      }
+    }
+
+    function addStationsToMap(data) {
+      if (!data.elements) return;
+console.log(data.elements);
+      const stationLayer = L.layerGroup().addTo(map);
+      const bounds = [];
+
+      data.elements.forEach(el => {
+        let lat, lon;
+
+        if (el.type === 'node') {
+          lat = el.lat;
+          lon = el.lon;
+        } else if (el.type === 'way' && el.center) {
+          lat = el.center.lat;
+          lon = el.center.lon;
+        }
+
+        if (lat == null || lon == null) return;
+
+        const name =el.tags['name:en'];
+           const nameq =el.tags['name:ja']
+
+        const marker = L.circleMarker([lat, lon], {
+          radius: 4,
+          color: '#d9534f',
+          fillColor: '#d9534f',
+          fillOpacity: 0.8
+        }).bindPopup(
+          `<div class="station-popup"><strong>${name}</strong><br/>${nameq}</div>`
+        );
+
+        marker.addTo(stationLayer);
+        bounds.push([lat, lon]);
+      });
+
+      if (bounds.length > 0) {
+        map.fitBounds(bounds, { padding: [20, 20] });
+      }
+    }
+
+    loadStations();
+  </script>
+</body>
+</html>
+

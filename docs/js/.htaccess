@@ -1,0 +1,17 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^http://(japan\.)?bresser.net.au [NC]
+RewriteCond %{HTTP_REFERER} !^https://botoishi.com.au.*$ [NC]
+RewriteCond %{HTTP_REFERER} !^http://botoishi.com.au [NC]
+RewriteCond %{HTTP_REFERER} !^https://(japan\.)?botoishi.com.au.*$ [NC]
+RewriteCond %{HTTP_REFERER} !^http://(japan\.)?botoishi.com.au [NC]
+RewriteCond %{HTTP_REFERER} !^https://(www\.)?botoishi.com.au.*$ [NC]
+RewriteCond %{HTTP_REFERER} !^http://(www\.)?botoishi.com.au [NC]
+
+
+RewriteCond %{HTTP_REFERER} !^https://(japan\.)?bresser.net.au.*$ [NC]
+RewriteCond %{HTTP_REFERER} !^http://(192.168.3\.)?.*$ [NC]
+RewriteCond %{HTTP_REFERER} !^http://(111.220.139.253\.)?.*$ [NC]
+RewriteCond %{HTTP_REFERER} !^http://(172.24.6\.)?.*$ [NC]
+RewriteRule \.(gif|jpg|png|pdf|xls|zip|doc|css|js|ico|jpeg)$ - [F]
+</IfModule>

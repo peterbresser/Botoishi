@@ -1,0 +1,10 @@
+User-agent: Googlebot
+Disallow: /searchme.php
+Disallow: /matomo
+
+User-agent: *
+Disallow: /matomo
+Disallow: /searchme.php
+
+Sitemap: https://botoishi.com.au/sitemap.xml
+Sitemap: https://botoishi.com.au/imagesitemap.xml

@@ -1,0 +1,44 @@
+
+
+
+ .text {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 15pt; font-weight: normal; color: #000000; text-decoration: none}
+ .text:link {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size:15pt; font-weight: normal; color: #000000; text-decoration: none}
+ .text:visited {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size:15pt; font-weight: normal; color: #000000; text-decoration: none}
+ .text:hover {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 15pt; font-weight: normal; color: #000000; text-decoration: none}
+
+ .textnon { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12pt; font-weight: bold; color: #000000; text-decoration: none}
+ .textnon:link { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12pt; font-weight: bold; color: #000000; text-decoration: none}
+ .textnon:visited{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12pt; font-weight: bold; color: #000000; text-decoration: none}
+ .textnon:hover {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12pt; font-weight: bold; color: #CCCCCC; text-decoration: none}
+
+ .text-small {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12pt; font-weight: normal; color: #000000; text-decoration: none}
+ .text-small:link {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size:12pt; font-weight: normal; color: #000000; text-decoration: none}
+ .text-small:visited {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size:12pt; font-weight: normal; color: #000000; text-decoration: none}
+ .text-small:hover {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12pt; font-weight: normal; color: #000000; text-decoration: none}
+
+ .text_red_large{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt; font-weight: bold; color: #FF0000; text-decoration: none}
+ .text_red_large:link { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt; font-weight: bold; color: #FF0000; text-decoration: none}
+ .text_red_large:visited{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt; font-weight: bold; color: #FF0000; text-decoration: none}
+ .text_red_large:hover {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt; font-weight: bold; color: #FF0000; text-decoration: none}
+
+
+ .textblue {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 15pt; font-weight: normal; color: #1684f1; text-decoration: none}
+ .textblue:link {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size:15pt; font-weight: normal; color: #1684f1; text-decoration: none}
+ .textblue:visited {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size:15pt; font-weight: normal; color: #1684f1; text-decoration: none}
+ .textblue:hover {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 15pt; font-weight: normal; color: #1684f1; text-decoration: none}
+
+ .textblue_small {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; font-weight: normal; color: #1684f1; text-decoration: none}
+ .textblue_small:link {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size:8pt; font-weight: normal; color: #1684f1; text-decoration: none}
+ .textblue_small:visited {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size:8pt; font-weight: normal; color: #1684f1; text-decoration: none}
+ .textblue_small:hover {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; font-weight: normal; color: #1684f1; text-decoration: none}
+
+ .text-0{  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 0pt; font-weight: normal; color: #ffffff; text-decoration: none}
+ .text-0l:link {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size:0pt; font-weight: normal; color: #ffffff; text-decoration: none}
+ .text-0:visited {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size:0pt; font-weight: normal; color: #ffffff; text-decoration: none}
+ .text-0:hover {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 0pt; font-weight: normal; color: #ffffff; text-decoration: none}
+
+ .moderat{  font-family:Moderat-Regular, sans-serif; font-size: 1.0rem; letter-spacing: .4px;font-weight: normal; color: #000000; text-decoration: none}
+.moderat:link{  font-family:Moderat-Regular, sans-serif; font-size: 1.0rem; letter-spacing: .4px; font-weight: normal; color: #000000; text-decoration: none}
+.moderat:visited{  font-family:Moderat-Regular, sans-serif; font-size: 1.0rem; letter-spacing: .4px; font-weight: normal; color: #000000; text-decoration: none}
+.moderat:hover{  font-family:Moderat-Regular, sans-serif; font-size: 1.0rem; letter-spacing: .4px; font-weight: normal; color: #000000; text-decoration: none}
+

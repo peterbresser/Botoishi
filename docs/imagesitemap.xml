@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    <url>
+        <loc>https://botoishi.com.au/</loc>
+        <image:image>
+            <image:loc>https://botoishi.com.au/images/japanheader2.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://botoishi.com.au/images/japanheader3.webp</image:loc>
+        </image:image>
+
+        <image:image>
+            <image:loc>https://botoishi.com.au/images/japanheader4.webp</image:loc>
+        </image:image>
+
+        <image:image>
+            <image:loc>https://botoishi.com.au/images/hamatsu.webp</image:loc>
+        </image:image>
+
+    </url>
+
+        <url>
+        <loc>https://botoishi.com.au/index.php</loc>
+            <image:image>
+                <image:loc>https://botoishi.com.au/images/japanheader2.webp</image:loc>
+            </image:image>
+            <image:image>
+                <image:loc>https://botoishi.com.au/images/japanheader3.webp</image:loc>
+            </image:image>
+
+            <image:image>
+                <image:loc>https://botoishi.com.au/images/japanheader4.webp</image:loc>
+            </image:image>
+
+            <image:image>
+                <image:loc>https://botoishi.com.au/images/hamatsu.webp</image:loc>
+            </image:image>
+
+
+        </url>
+       <url>
+        <loc>https://botoishi.com.au/shinkansen.php</loc>
+        <image:image>
+            <image:loc>https://botoishi.com.au/images/shinkansen.avif</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://botoishi.com.au/shinkansenmap.php</loc>
+        <image:image>
+            <image:loc>https://botoishi.com.au/images/shinkansen.avif</image:loc>
+        </image:image>
+    </url>
+
+       <url>
+        <loc>https://botoishi.com.au/map.php</loc>
+        <image:image>
+            <image:loc>https://botoishi.com.au/images/japan-map-png.avif</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://botoishi.com.au/fullmap.php</loc>
+        <image:image>
+            <image:loc>https://botoishi.com.au/images/japan-map-png.avif</image:loc>
+        </image:image>
+    </url>
+   <url>
+        <loc>https://botoishi.com.au/stations.php</loc>
+        <image:image>
+            <image:loc>https://botoishi.com.au/images/keio.avif</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://botoishi.com.au/hotels.php</loc>
+        <image:image>
+            <image:loc>https://botoishi.com.au/images/japan-map-png2.avif</image:loc>
+        </image:image>
+    </url>
+       <url>
+        <loc>https://botoishi.com.au/minshinku.php</loc>
+        <image:image>
+            <image:loc>https://botoishi.com.au/images/20211206085424-3fb0bd72.avif</image:loc>
+        </image:image>
+    </url>
+       <url>
+        <loc>https://botoishi.com.au/minshinkumap.php</loc>
+        <image:image>
+            <image:loc>https://botoishi.com.au/images/japan-map-png2.avif</image:loc>
+        </image:image>
+    </url>
+       <url>
+        <loc>https://botoishi.com.au/prefecture.php</loc>
+        <image:image>
+            <image:loc>https://botoishi.com.au/images/koyasan.avif</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://botoishi.com.au/travelling.php</loc>
+        <image:image>
+            <image:loc>https://botoishi.com.au/images/20211206085508-24ee8cec.avif</image:loc>
+        </image:image>
+    </url>
+       <url>
+        <loc>https://botoishi.com.au/iccards.php</loc>
+        <image:image>
+            <image:loc>https://botoishi.com.au/images/passmo.avif</image:loc>
+        </image:image>
+    </url>
+       <url>
+        <loc>https://botoishi.com.au/exchangerates.php</loc>
+        <image:image>
+            <image:loc>https://botoishi.com.au/images/paytray.avif</image:loc>
+        </image:image>
+    </url>
+           <url>
+        <loc>https://botoishi.com.au/jrpass.php</loc>
+        <image:image>
+            <image:loc>https://botoishi.com.au/images/header1.avif</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://botoishi.com.au/passmap.php</loc>
+        <image:image>
+            <image:loc>https://botoishi.com.au/images/local.avif</image:loc>
+        </image:image>
+    </url>
+
+        <url>
+        <loc>https://botoishi.com.au/passmap.php</loc>
+        <image:image>
+            <image:loc>https://botoishi.com.au/images/local.avif</image:loc>
+        </image:image>
+    </url>
+
+
+    <url>
+        <loc>https://botoishi.com.au/soupstock.php</loc>
+        <image:image>
+            <image:loc>https://botoishi.com.au/images/mrsoup1.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://botoishi.com.au/images/mrsoup2.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://botoishi.com.au/images/mrsoup2.webp</image:loc>
+        </image:image>
+    </url>
+
+
+    <url>
+        <loc>https://botoishi.com.au/mrdonut.php</loc>
+        <image:image>
+            <image:loc>https://botoishi.com.au/images/mrdonutt.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://botoishi.com.au/images/mrdonut2.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://botoishi.com.au/images/mrdonut2.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://botoishi.com.au/images/mrdonut4.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://botoishi.com.au/images/mrdonut4.webp</image:loc>
+        </image:image>
+    </url>
+
+    <url>
+        <loc>https://botoishi.com.au/destinations/osaka.php</loc>
+        <image:image>
+            <image:loc>https://botoishi.com.au/images/osaka3.webp</image:loc>
+        </image:image>
+ </url>
+
+
+
+        <url>
+            <loc>https://botoishi.com.au/destinations/abashiri.php</loc>
+            <image:image>
+                <image:loc>https://botoishi.com.au/images/abashiri3.webp</image:loc>
+            </image:image>
+        </url>
+
+        <url>
+            <loc>https://botoishi.com.au/destinations/akita.php</loc>
+            <image:image>
+                <image:loc>https://botoishi.com.au/images/akita.webp</image:loc>
+            </image:image>
+        </url>
+
+        <url>
+            <loc>https://botoishi.com.au/destinations/tokyometrogame.php</loc>
+            <image:image>
+                <image:loc>https://botoishi.com.au/images/scarp.webp</image:loc>
+            </image:image>
+        </url>
+
+
+        <url>
+            <loc>https://botoishi.com.au/destinations/food.php</loc>
+            <image:image>
+                <image:loc>https://botoishi.com.au/images/abashirimart.avif</image:loc>
+            </image:image>
+                   <image:image>
+                <image:loc>https://botoishi.com.au/images/TakashimayaOsaka.avif</image:loc>
+            </image:image>
+                        <image:image>
+                <image:loc>https://botoishi.com.au/images/lawsonstore.avif</image:loc>
+            </image:image>
+
+        </url>
+
+    <url>
+        <loc>https://botoishi.com.au/trains.php</loc>
+        <image:image>
+            <image:loc>https://botoishi.com.au/images/keio.avif</image:loc>
+        </image:image>
+               <image:image>
+            <image:loc>https://botoishi.com.au/images/shinkansen.avif</image:loc>
+        </image:image>
+                <image:image>
+            <image:loc>https://botoishi.com.au/images/local.avif</image:loc>
+        </image:image>
+
+    </url>
+    <url>
+        <loc>https://botoishi.com.au/destinations/kinosaki.php</loc>
+        <image:image>
+            <image:loc>https://botoishi.com.au/images/kinosaki.webp</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://botoishi.com.au/destinations/koyasan.php</loc>
+        <image:image>
+            <image:loc>https://botoishi.com.au/images/koyasan.jpg</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://botoishi.com.au/destinations/sagishima.php</loc>
+        <image:image>
+            <image:loc>https://botoishi.com.au/images/sagishima2.webp</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://botoishi.com.au/destinations/himeji.php</loc>
+        <image:image>
+            <image:loc>https://botoishi.com.au/images/himeji.webp</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://botoishi.com.au/tanner.php</loc>
+        <image:image>
+            <image:loc>https://botoishi.com.au/images/tanner.webp</image:loc>
+        </image:image>
+    </url>
+
+    <url>
+        <loc>https://botoishi.com.au/destinations/kochi.php</loc>
+        <image:image>
+            <image:loc>https://botoishi.com.au/images/kochitemple.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://botoishi.com.au/images/kochitram.webp</image:loc>
+        </image:image>
+
+    </url>
+
+    <url>
+        <loc>https://botoishi.com.au/projectoilet.php</loc>
+        <image:image>
+            <image:loc>https://botoishi.com.au/images/tokyotoilet.webp</image:loc>
+        </image:image>
+    </url>
+
+    <url>
+        <loc>https://botoishi.com.au/destinations/beppu.php</loc>
+        <image:image>
+            <image:loc>https://botoishi.com.au/images/beppu.webp</image:loc>
+        </image:image>
+    </url>
+
+    <url>
+        <loc>https://botoishi.com.au/destinations/zaoonsen.php</loc>
+        <image:image>
+            <image:loc>https://botoishi.com.au/images/zaoonsen.webp</image:loc>
+        </image:image>
+
+    </url>
+
+        <url>
+        <loc>https://botoishi.com.au/destinations/tsuruga.php</loc>
+        <image:image>
+            <image:loc>https://botoishi.com.au/images/tsuruga.webp</image:loc>
+        </image:image>
+
+    </url>
+
+
+        <url>
+        <loc>https://botoishi.com.au/destinations/amanohashidate.php</loc>
+        <image:image>
+            <image:loc>https://botoishi.com.au/images/amanohashidate.webp</image:loc>
+        </image:image>
+
+    </url>
+
+        <url>
+        <loc>https://botoishi.com.au/destinations/sagishima.php</loc>
+        <image:image>
+            <image:loc>https://botoishi.com.au/images/sagishima.webp</image:loc>
+        </image:image>
+
+    </url>
+
+    <url>
+        <loc>https://botoishi.com.au/randomlocator.php</loc>
+        <image:image>
+            <image:loc>https://botoishi.com.au/images/local.png</image:loc>
+        </image:image>
+    </url>
+
+
+    <url>
+        <loc>https://botoishi.com.au/destinations/toyohashi</loc>
+        <image:image>
+            <image:loc>https://botoishi.com.au/images/toyohashi.webp</image:loc>
+        </image:image>
+    </url>      
+	    <url>
+        <loc>https://botoishi.com.au/destinations/kijimadaira</loc>
+        <image:image>
+            <image:loc>https://botoishi.com.au/images/kijimadaira.webp</image:loc>
+        </image:image>
+    </url>  
+
+</urlset>

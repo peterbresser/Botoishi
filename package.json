@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@turf/random": "^7.3.1",
+    "rbush": "^4.0.1"
+  }
+}

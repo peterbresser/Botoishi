@@ -1,0 +1,27 @@
+<title>Tokyo Metro Underground Mysteries Explore Japan </title>
+<meta http-equiv=\"Content-Security-Policy" content="upgrade-insecure-requests\" >
+<meta property=\"fb:app_id\" content=\"246281065429543\" >
+<meta name=\"keywords\" content=\"Tokyo Metro Underground Mysteries 2025 , explore tokyo , explore toky in 24 hours , solve Mysteries , travel, sightseeing,  visitor, tourist, trip \" >
+<meta name=\"description\" content=\"Tokyo Metro Underground Mysteries is an annual puzzle-solving adventure game in Tokyo.\" >
+<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" >
+<meta name=\"format-detection\" content=\"telephone=no\" >
+<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=5.0\" >
+<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\" >
+<meta property
+\"og:url\" content=\"".$GLOBALS['URLOCATION']."/destinations/tokyometrogame.php\">
+<meta property=\"og:type\" content="website" >
+<meta property=\"og:title" content=\"Tokyo Metro Underground Mysteries,  Explore Japan\" >
+<meta property=\"og:description\" content=\"Tokyo Metro Underground Mysteries is an annual puzzle-solving adventure game in Tokyo Japan.\" >
+<meta property=\"og:site_name\" content="JapanTravel" >
+<meta property=\"og:image\" content=\"".$GLOBALS['URLOCATION']."/images/scarp.webp\" >
+<meta property=\"og:image:width\" content=\"1200\" >
+<meta property=\"og:image:height\" content=\"630\" >
+<meta name=\"twitter:card\" content=\"summary\" >
+<meta name=\"twitter:site\" content=\"JapanTravel\" >
+<meta name=\"twitter:title\" content=\"Tokyo Metro Underground Mysteries, Japan\" >
+<meta name=\"twitter:description\" content=\"Tokyo Metro Underground Mysteries is an annual puzzle-solving adventure game in Tokyo Japan\" >
+<meta name=\"twitter:image\" content="".$GLOBALS['URLOCATION']."/images/scarp.webp\" >
+<link rel=\"shortcut icon\" href=" https://botoishi.com.au/favicon.png" type="image/png\">
+<link rel=\"icon\" href=\"".$GLOBALS['URLOCATION']."/favicon.png" type="image/png\">
+<link rel=\"icon\" type="\image/svg+xml\" href=\"".$GLOBALS['URLOCATION']."/favicon.svg\" />
+<link href=\"".$GLOBALS['URLOCATION']."/destinations/tokyometrogame.php\" rel=\"canonical\" >

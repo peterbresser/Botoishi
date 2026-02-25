@@ -1,0 +1,189 @@
+const stationS = {
+"type": "FeatureCollection",
+ "features":[
+{ "type": "Feature",
+"geometry": {"type": "Point", "coordinates":[31.608726,130.560977]},
+"properties": {"ename":"Takami Baba    <br> 高見馬場", "jname":"高見馬場","address":"鹿児島市山之口町", "lineid":"99926","line_name":"Kagoshima City Tram Line 2"}
+}
+,{ "type": "Feature",
+"geometry": {"type": "Point", "coordinates":[31.58731,130.548037]},
+"properties": {"ename":"Kajiyacho    <br> 加治屋町", "jname":"加治屋町","address":"鹿児島市加治屋町", "lineid":"99926","line_name":"Kagoshima City Tram Line 2"}
+}
+,{ "type": "Feature",
+"geometry": {"type": "Point", "coordinates":[31.58593,130.545162]},
+"properties": {"ename":"Takami Bridge    <br> 高見橋", "jname":"高見橋","address":"鹿児島市中央町", "lineid":"99926","line_name":"Kagoshima City Tram Line 2"}
+}
+,{ "type": "Feature",
+"geometry": {"type": "Point", "coordinates":[31.58412,130.543703]},
+"properties": {"ename":"In Front Of Kagoshima Chuo Station    <br> 鹿児島中央駅前", "jname":"鹿児島中央駅前","address":"鹿児島市中央町３７-１", "lineid":"99926","line_name":"Kagoshima City Tram Line 2"}
+}
+,{ "type": "Feature",
+"geometry": {"type": "Point", "coordinates":[31.580601,130.543038]},
+"properties": {"ename":"Miyakodori    <br> 都通", "jname":"都通","address":"鹿児島市中央町", "lineid":"99926","line_name":"Kagoshima City Tram Line 2"}
+}
+,{ "type": "Feature",
+"geometry": {"type": "Point", "coordinates":[31.578581,130.542587]},
+"properties": {"ename":"Nakasu Dori    <br> 中洲通", "jname":"中洲通","address":"鹿児島市上荒田町", "lineid":"99926","line_name":"Kagoshima City Tram Line 2"}
+}
+,{ "type": "Feature",
+"geometry": {"type": "Point", "coordinates":[31.575812,130.541836]},
+"properties": {"ename":"In Front Of The City Hospital    <br> 市立病院前", "jname":"市立病院前","address":"鹿児島市上荒田町", "lineid":"99926","line_name":"Kagoshima City Tram Line 2"}
+}
+,{ "type": "Feature",
+"geometry": {"type": "Point", "coordinates":[31.572932,130.540613]},
+"properties": {"ename":"Kanda (in Front Of The Transportation Bureau)    <br> 神田（交通局前）", "jname":"神田（交通局前）","address":"鹿児島市上荒田町", "lineid":"99926","line_name":"Kagoshima City Tram Line 2"}
+}
+,{ "type": "Feature",
+"geometry": {"type": "Point", "coordinates":[31.570556,130.541085]},
+"properties": {"ename":"Karaminato    <br> 唐湊", "jname":"唐湊","address":"鹿児島市郡元１", "lineid":"99926","line_name":"Kagoshima City Tram Line 2"}
+}
+,{ "type": "Feature",
+"geometry": {"type": "Point", "coordinates":[31.568408,130.541857]},
+"properties": {"ename":"In Front Of The Faculty Of Engineering    <br> 工学部前", "jname":"工学部前","address":"鹿児島市郡元１", "lineid":"99926","line_name":"Kagoshima City Tram Line 2"}
+}
+,{ "type": "Feature",
+"geometry": {"type": "Point", "coordinates":[31.566872,130.542694]},
+"properties": {"ename":"Junshin Gakuen    <br> 純心学園前", "jname":"純心学園前","address":"鹿児島市郡元１", "lineid":"99926","line_name":"Kagoshima City Tram Line 2"}
+}
+,{ "type": "Feature",
+"geometry": {"type": "Point", "coordinates":[31.56498,130.545312]},
+"properties": {"ename":"Nakagun    <br> 中郡", "jname":"中郡","address":"鹿児島市郡元１", "lineid":"99926","line_name":"Kagoshima City Tram Line 2"}
+}
+,{ "type": "Feature",
+"geometry": {"type": "Point", "coordinates":[31.562466,130.549024]},
+"properties": {"ename":"Gunmoto    <br> 郡元", "jname":"郡元","address":"鹿児島県鹿児島市鴨池一丁目", "lineid":"99926","line_name":"Kagoshima City Tram Line 2"}
+}
+,{ "type": "Feature",
+"geometry": {"type": "Point", "coordinates":[26.206515,127.652214]},
+"properties": {"ename":"Naha Airport    <br> 那覇空港", "jname":"那覇空港","address":"那覇市字鏡水９３８-５", "lineid":"99927","line_name":"Yui Rail"}
+}
+,{ "type": "Feature",
+"geometry": {"type": "Point", "coordinates":[26.193289,127.660348]},
+"properties": {"ename":"Akamine    <br> 赤嶺", "jname":"赤嶺","address":"那覇市赤嶺２-１０００-１１", "lineid":"99927","line_name":"Yui Rail"}
+}
+,{ "type": "Feature",
+"geometry": {"type": "Point", "coordinates":[26.196455,127.666853]},
+"properties": {"ename":"Oroku    <br> 小禄", "jname":"小禄","address":"那覇市田原３-１０００-１", "lineid":"99927","line_name":"Yui Rail"}
+}
+,{ "type": "Feature",
+"geometry": {"type": "Point", "coordinates":[26.200714,127.675252]},
+"properties": {"ename":"Oonoyama Park    <br> 奥武山公園", "jname":"奥武山公園","address":"那覇市奥武山町３１６-２", "lineid":"99927","line_name":"Yui Rail"}
+}
+,{ "type": "Feature",
+"geometry": {"type": "Point", "coordinates":[26.205927,127.678344]},
+"properties": {"ename":"Tsubokawa    <br> 壺川", "jname":"壺川","address":"那覇市壺川３-１０６", "lineid":"99927","line_name":"Yui Rail"}
+}
+,{ "type": "Feature",
+"geometry": {"type": "Point", "coordinates":[26.21191,127.675515]},
+"properties": {"ename":"Asahibashi Bridge    <br> 旭橋", "jname":"旭橋","address":"那覇市泉崎１-１０５", "lineid":"99927","line_name":"Yui Rail"}
+}
+,{ "type": "Feature",
+"geometry": {"type": "Point", "coordinates":[26.214446,127.679343]},
+"properties": {"ename":"Prefectural Office    <br> 県庁前", "jname":"県庁前","address":"那覇市久茂地１-１０３", "lineid":"99927","line_name":"Yui Rail"}
+}
+,{ "type": "Feature",
+"geometry": {"type": "Point", "coordinates":[26.219245,127.684328]},
+"properties": {"ename":"Miebashi Bridge    <br> 美栄橋", "jname":"美栄橋","address":"那覇市牧志１-９６５", "lineid":"99927","line_name":"Yui Rail"}
+}
+,{ "type": "Feature",
+"geometry": {"type": "Point", "coordinates":[26.217248,127.69255]},
+"properties": {"ename":"Makishi    <br> 牧志", "jname":"牧志","address":"那覇市牧志３-２７２-５", "lineid":"99927","line_name":"Yui Rail"}
+}
+,{ "type": "Feature",
+"geometry": {"type": "Point", "coordinates":[26.216737,127.695736]},
+"properties": {"ename":"Asato    <br> 安里", "jname":"安里","address":"那覇市安里３８９-７", "lineid":"99927","line_name":"Yui Rail"}
+}
+,{ "type": "Feature",
+"geometry": {"type": "Point", "coordinates":[26.222701,127.698391]},
+"properties": {"ename":"Omoromachi    <br> おもろまち", "jname":"おもろまち","address":"那覇市安里３０５-３", "lineid":"99927","line_name":"Yui Rail"}
+}
+,{ "type": "Feature",
+"geometry": {"type": "Point", "coordinates":[26.230919,127.703079]},
+"properties": {"ename":"Furushima    <br> 古島", "jname":"古島","address":"那覇市古島９３-１", "lineid":"99927","line_name":"Yui Rail"}
+}
+,{ "type": "Feature",
+"geometry": {"type": "Point", "coordinates":[26.227548,127.710003]},
+"properties": {"ename":"In Front Of The City Hospital    <br> 市立病院前", "jname":"市立病院前","address":"那覇市古島１７２-２", "lineid":"99927","line_name":"Yui Rail"}
+}
+,{ "type": "Feature",
+"geometry": {"type": "Point", "coordinates":[26.224663,127.719039]},
+"properties": {"ename":"Gibo    <br> 儀保", "jname":"儀保","address":"那覇市首里儀保町３-１４-３", "lineid":"99927","line_name":"Yui Rail"}
+}
+,{ "type": "Feature",
+"geometry": {"type": "Point", "coordinates":[26.219191,127.725492]},
+"properties": {"ename":"Shuri    <br> 首里", "jname":"首里","address":"那覇市首里汀良町３-１９", "lineid":"99927","line_name":"Yui Rail"}
+}
+,{ "type": "Feature",
+"geometry": {"type": "Point", "coordinates":[26.227222,127.729167]},
+"properties": {"ename":"Ishimine    <br> 石嶺", "jname":"石嶺","address":"沖縄県那覇市首里石嶺町二丁目90", "lineid":"99927","line_name":"Yui Rail"}
+}
+,{ "type": "Feature",
+"geometry": {"type": "Point", "coordinates":[26.236667,127.728333]},
+"properties": {"ename":"Sutra Mound    <br> 経塚", "jname":"経塚","address":"沖縄県浦添市前田", "lineid":"99927","line_name":"Yui Rail"}
+}
+,{ "type": "Feature",
+"geometry": {"type": "Point", "coordinates":[26.243889,127.732278]},
+"properties": {"ename":"Urasoe Maeda    <br> 浦添前田", "jname":"浦添前田","address":"沖縄県浦添市前田一丁目", "lineid":"99927","line_name":"Yui Rail"}
+}
+,{ "type": "Feature",
+"geometry": {"type": "Point", "coordinates":[26.241778,127.741861]},
+"properties": {"ename":"Tedako Urashi    <br> てだこ浦西", "jname":"てだこ浦西","address":"沖縄県浦添市前田三丁目21", "lineid":"99927","line_name":"Yui Rail"}
+}
+,{ "type": "Feature",
+"geometry": {"type": "Point", "coordinates":[33.944392,130.962439]},
+"properties": {"ename":"Kyushu Railway Museum    <br> 九州鉄道記念館", "jname":"九州鉄道記念館","address":"福岡県北九州市門司区", "lineid":"99928","line_name":"Mojiko Retro Tourist Line"}
+}
+,{ "type": "Feature",
+"geometry": {"type": "Point", "coordinates":[33.947792,130.965292]},
+"properties": {"ename":"Idemitsu Museum Of Arts    <br> 出光美術館", "jname":"出光美術館","address":"福岡県北九州市門司区", "lineid":"99928","line_name":"Mojiko Retro Tourist Line"}
+}
+,{ "type": "Feature",
+"geometry": {"type": "Point", "coordinates":[33.955973,130.964254]},
+"properties": {"ename":"Norfolk Square    <br> ノーフォーク広場", "jname":"ノーフォーク広場","address":"福岡県北九州市門司区旧門司", "lineid":"99928","line_name":"Mojiko Retro Tourist Line"}
+}
+,{ "type": "Feature",
+"geometry": {"type": "Point", "coordinates":[33.960627,130.967347]},
+"properties": {"ename":"Near The Kanmon Strait    <br> 関門海峡めかり", "jname":"関門海峡めかり","address":"福岡県北九州市門司区門司", "lineid":"99928","line_name":"Mojiko Retro Tourist Line"}
+}
+,{ "type": "Feature",
+"geometry": {"type": "Point", "coordinates":[36.7227036,137.2249032]},
+"properties": {"ename":"Etchu-nakajima Station    <br> 越中中島駅", "jname":"越中中島駅","address":"3-chōme-5 Nakajima", "lineid":"99422","line_name":"Toyama Chiho Railway Toyama City Line [Line 3 (Loop Line)]"}
+}
+,{ "type": "Feature",
+"geometry": {"type": "Point", "coordinates":[36.7036327,137.2166998]},
+"properties": {"ename":"Intec Honshamae Station    <br> インテック本社前駅", "jname":"インテック本社前駅","address":"2 Ushijimashinmachi", "lineid":"99422","line_name":"Toyama Chiho Railway Toyama City Line [Line 3 (Loop Line)]"}
+}
+,{ "type": "Feature",
+"geometry": {"type": "Point", "coordinates":[36.7036085,137.2235889]},
+"properties": {"ename":"Intec Honshamae Station    <br> インテック本社前駅", "jname":"インテック本社前駅","address":"2 Ushijimashinmachi", "lineid":"99422","line_name":"Toyama Chiho Railway Toyama City Line [Line 3 (Loop Line)]"}
+}
+,{ "type": "Feature",
+"geometry": {"type": "Point", "coordinates":[36.7123399,137.2246216]},
+"properties": {"ename":"Shimookui Station    <br> 下奥井駅", "jname":"下奥井駅","address":"1-chōme-21 Shimookui", "lineid":"99422","line_name":"Toyama Chiho Railway Toyama City Line [Line 3 (Loop Line)]"}
+}
+,{ "type": "Feature",
+"geometry": {"type": "Point", "coordinates":[36.7311827,137.2260778]},
+"properties": {"ename":"Shirokawahara    <br> 城川原", "jname":"城川原","address":"4  Toyama  931-8325  ", "lineid":"99422","line_name":"Toyama Chiho Railway Toyama City Line [Line 3 (Loop Line)]"}
+}
+,{ "type": "Feature",
+"geometry": {"type": "Point", "coordinates":[36.7354372,137.2266528]},
+"properties": {"ename":"Inujima-shinmachi Station    <br> 犬島新町駅", "jname":"犬島新町駅","address":"7 Uwanoshinmachi  Toyama  931-8326  ", "lineid":"99422","line_name":"Toyama Chiho Railway Toyama City Line [Line 3 (Loop Line)]"}
+}
+,{ "type": "Feature",
+"geometry": {"type": "Point", "coordinates":[36.7490238,137.2285213]},
+"properties": {"ename":"Hagiura Elementary School Station    <br> 萩浦小学校前駅", "jname":"萩浦小学校前駅","address":"Nishimiya  Toyama  931-8345  ", "lineid":"99422","line_name":"Toyama Chiho Railway Toyama City Line [Line 3 (Loop Line)]"}
+}
+,{ "type": "Feature",
+"geometry": {"type": "Point", "coordinates":[36.7523258,137.2306814]},
+"properties": {"ename":"Higashiiwase Station    <br> 東岩瀬駅", "jname":"東岩瀬駅","address":"Nishimiya  Toyama  931-8345  ", "lineid":"99422","line_name":"Toyama Chiho Railway Toyama City Line [Line 3 (Loop Line)]"}
+}
+,{ "type": "Feature",
+"geometry": {"type": "Point", "coordinates":[36.7574372,137.23380]},
+"properties": {"ename":"Keirinjo-mae Station    <br> 競輪場前駅", "jname":"競輪場前駅","address":"Iwasehakusanmachi  Toyama  931-8361  ", "lineid":"99422","line_name":"Toyama Chiho Railway Toyama City Line [Line 3 (Loop Line)]"}
+}
+,{ "type": "Feature",
+"geometry": {"type": "Point", "coordinates":[36.7615004,137.2339028]},
+"properties": {"ename":"Iwasehama Station    <br> 岩瀬浜駅", "jname":"岩瀬浜駅","address":"Iwasetenjinmachi  Toyama  931-8378  ", "lineid":"99422","line_name":"Toyama Chiho Railway Toyama City Line [Line 3 (Loop Line)]"}
+} 		
+	]
+}; 

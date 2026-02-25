@@ -1,0 +1,4 @@
+#AuthType Basic
+#AuthName "Secure Content"
+#AuthUserFile /var/www/japan/docs/.htpasswd
+#require valid-user

@@ -1,0 +1,452 @@
+<?php
+
+
+
+
+echo
+"
+var pointA400001= new L.LatLng(35.6828019,139.76754);
+var pointB400002= new L.LatLng(35.6917251,139.771059);
+var pointC400003= new L.LatLng(35.6956985,139.7734623);
+var pointD400004= new L.LatLng(35.703296,139.7739773);
+var pointE400005= new L.LatLng(35.7083838,139.7753506);
+var pointF400006= new L.LatLng(35.7110322,139.7749214);
+var pointG400007= new L.LatLng(35.7176526,139.7798137);
+var pointH400008= new L.LatLng(35.7196735,139.7800712);
+var pointI400009= new L.LatLng(35.7223215,139.7780113);
+var pointJ400010= new L.LatLng(35.7300558,139.7683983);
+var pointK400011= new L.LatLng(35.7359084,139.7641926);
+var pointN400012= new L.LatLng(35.7396008,139.7600727);
+var pointO400013= new L.LatLng(35.7412031,139.7570686);
+var pointP400014= new L.LatLng(35.7495626,139.7419624);
+var pointQ400015= new L.LatLng(35.7542992,139.7374134);
+var pointR400016= new L.LatLng(35.7612643,139.734581);
+var pointS400017= new L.LatLng(35.7589659,139.7326927);
+var pointZ400018= new L.LatLng(35.7637019,139.726942);
+var pointY400019= new L.LatLng(35.7684377,139.7242813);
+var pointX400020= new L.LatLng(35.7724769,139.721878);
+var pointW400021= new L.LatLng(35.7758194,139.7217064);
+var pointA400022= new L.LatLng(35.7814597,139.7185306);
+var pointB400023= new L.LatLng(35.7845234,139.7148399);
+var pointC400024= new L.LatLng(35.7861248,139.7070293);
+var pointD400025= new L.LatLng(35.7891883,139.7029095);
+var pointE400026= new L.LatLng(35.7905111,139.6980171);
+var pointF400027= new L.LatLng(35.7909289,139.6921806);
+var pointG400028= new L.LatLng(35.7925998,139.6884041);
+var pointH400029= new L.LatLng(35.7950365,139.6868591);
+var pointI400030= new L.LatLng(35.7969857,139.6861725);
+var pointJ400031= new L.LatLng(35.8008146,139.6849708);
+var pointK400032= new L.LatLng(35.802903,139.6836834);
+var pointN400033= new L.LatLng(35.8060354,139.6802502);
+var pointO400034= new L.LatLng(35.8106295,139.674757);
+var pointP400035= new L.LatLng(35.8127176,139.6727829);
+var pointQ400036= new L.LatLng(35.8209303,139.6675472);
+var pointR400037= new L.LatLng(35.8249668,139.6645431);
+var pointS400038= new L.LatLng(35.8275416,139.6591358);
+var pointZ400039= new L.LatLng(35.8327607,139.6545868);
+var pointY400040= new L.LatLng(35.8442415,139.6475487);
+var pointX400041= new L.LatLng(35.8477898,139.6445446);
+var pointW400042= new L.LatLng(35.8553032,139.6357899);
+var pointA400043= new L.LatLng(35.882151,139.6254902);
+var pointB400044= new L.LatLng(35.8846545,139.6251468);
+var pointC400045= new L.LatLng(35.8879923,139.6264343);
+var pointD400046= new L.LatLng(35.8939028,139.6296959);
+var pointE400047= new L.LatLng(35.8971012,139.6289234);
+var pointF400048= new L.LatLng(35.9014814,139.6264343);
+var pointG400049= new L.LatLng(35.9058613,139.6236877);
+var pointH400050= new L.LatLng(35.9236568,139.6168213);
+var pointI400051= new L.LatLng(35.926715,139.6168213);
+var pointJ400052= new L.LatLng(35.9312325,139.6160488);
+var pointK400053= new L.LatLng(35.9784777,139.6251468);
+var pointN400054= new L.LatLng(35.9885484,139.6303825);
+var pointO400055= new L.LatLng(35.9951457,139.6354465);
+var pointP400056= new L.LatLng(36.0192387,139.6539001);
+var pointQ400057= new L.LatLng(36.0229179,139.6563892);
+var pointR400058= new L.LatLng(36.0685819,139.6796493);
+var pointS400059= new L.LatLng(36.109227,139.7053985);
+var pointZ400060= new L.LatLng(36.1233715,139.7140674);
+var pointY400061= new L.LatLng(36.1264913,139.7159557);
+var pointX400062= new L.LatLng(36.1333543,139.7191315);
+var pointW400063= new L.LatLng(36.17743,139.7381859);
+var pointA400064= new L.LatLng(36.2760253,139.7775822);
+var pointB400065= new L.LatLng(36.282045,139.7817879);
+var pointC400066= new L.LatLng(36.3038366,139.8003273);
+var pointD400067= new L.LatLng(36.3081942,139.8035888);
+var pointE400068= new L.LatLng(36.314004,139.8071079);
+var pointF400069= new L.LatLng(36.4003381,139.857233);
+var pointG400070= new L.LatLng(36.4024797,139.8585205);
+var pointH400071= new L.LatLng(36.4075226,139.8610096);
+var pointI400072= new L.LatLng(36.4371513,139.8671036);
+var pointJ400073= new L.LatLng(36.47022,139.8727684);
+var pointK400074= new L.LatLng(36.4883017,139.8762016);
+var pointN400075= new L.LatLng(36.4936149,139.8781757);
+var pointO400076= new L.LatLng(36.5002388,139.8804073);
+var pointP400077= new L.LatLng(36.5270043,139.8902778);
+var pointQ400078= new L.LatLng(36.5576216,139.8979168);
+var pointR400079= new L.LatLng(36.5687898,139.9010925);
+var pointS400080= new L.LatLng(36.5734083,139.9015217);
+var pointZ400081= new L.LatLng(36.6160642,139.9077873);
+var pointY400082= new L.LatLng(36.6379688,139.9105339);
+var pointX400083= new L.LatLng(36.6570441,139.9134521);
+var pointW400084= new L.LatLng(36.6768719,139.9161987);
+var pointA400085= new L.LatLng(36.6887799,139.917057);
+var pointB400086= new L.LatLng(36.696144,139.9180012);
+var pointC400087= new L.LatLng(36.700686,139.9192886);
+var pointD400088= new L.LatLng(36.7145168,139.9245243);
+var pointE400089= new L.LatLng(36.7317159,139.9313907);
+var pointF400090= new L.LatLng(36.7703653,139.9477844);
+var pointG400091= new L.LatLng(36.7793028,139.9513035);
+var pointH400092= new L.LatLng(36.7854897,139.9531917);
+var pointI400093= new L.LatLng(36.79092,139.9542217);
+var pointJ400094= new L.LatLng(36.8012984,139.9552517);
+var pointK400095= new L.LatLng(36.8197835,139.9595432);
+var pointN400096= new L.LatLng(36.8468502,139.9640922);
+var pointO400097= new L.LatLng(36.8559162,139.9668388);
+var pointP400098= new L.LatLng(36.8640196,139.9720745);
+var pointQ400099= new L.LatLng(36.9116616,140.0062351);
+var pointR400100= new L.LatLng(36.9308062,140.0200538);
+var pointS400101= new L.LatLng(36.9508376,140.041769);
+var pointZ400102= new L.LatLng(36.9578336,140.0491504);
+var pointY400103= new L.LatLng(36.9667492,140.0567894);
+var pointX400104= new L.LatLng(36.9846458,140.0723247);
+var pointW400105= new L.LatLng(36.9901305,140.0772171);
+var pointA400106= new L.LatLng(36.9954092,140.0815944);
+var pointB400107= new L.LatLng(37.0104205,140.0929241);
+var pointC400108= new L.LatLng(37.0214543,140.1009064);
+var pointD400109= new L.LatLng(37.0513952,140.1229648);
+var pointE400110= new L.LatLng(37.0601628,140.1301746);
+var pointF400111= new L.LatLng(37.0758461,140.1444225);
+var pointG400112= new L.LatLng(37.1015898,140.1685409);
+var pointH400113= new L.LatLng(37.1310201,140.1961784);
+var pointI400114= new L.LatLng(37.1336888,140.1988392);
+var pointJ400115= new L.LatLng(37.1512724,140.2153187);
+var pointK400116= new L.LatLng(37.1878633,140.2499943);
+var pointN400117= new L.LatLng(37.2089891,140.269907);
+var pointO400118= new L.LatLng(37.2637244,140.3123073);
+var pointP400119= new L.LatLng(37.3046986,140.3432064);
+var pointQ400120= new L.LatLng(37.3297502,140.3620033);
+var pointR400121= new L.LatLng(37.3333673,140.3641491);
+var pointS400122= new L.LatLng(37.3382809,140.3662948);
+var pointZ400123= new L.LatLng(37.3560897,140.3740196);
+var pointY400124= new L.LatLng(37.3682328,140.3795128);
+var pointX400125= new L.LatLng(37.3763498,140.3830318);
+var pointW400126= new L.LatLng(37.4274874,140.3975372);
+var pointA400127= new L.LatLng(37.4520891,140.4068069);
+var pointB400128= new L.LatLng(37.4916667,140.4222565);
+var pointC400129= new L.LatLng(37.5147496,140.4311828);
+var pointD400130= new L.LatLng(37.5417727,140.4459457);
+var pointE400131= new L.LatLng(37.5555187,140.4535847);
+var pointF400132= new L.LatLng(37.5794662,140.4663734);
+var pointG400133= new L.LatLng(37.5830032,140.4679184);
+var pointH400134= new L.LatLng(37.5872882,140.4690342);
+var pointI400135= new L.LatLng(37.6001418,140.4707508);
+var pointJ400136= new L.LatLng(37.6164607,140.4722099);
+var pointK400137= new L.LatLng(37.6526213,140.4759865);
+var pointN400138= new L.LatLng(37.6578537,140.475729);
+var pointO400139= new L.LatLng(37.6636971,140.4740124);
+var pointP400140= new L.LatLng(37.6734125,140.4698067);
+var pointQ400141= new L.LatLng(37.6801379,140.4658584);
+var pointR400142= new L.LatLng(37.7005139,140.4549579);
+var pointS400143= new L.LatLng(37.7039094,140.453928);
+var pointZ400144= new L.LatLng(37.7068972,140.4534988);
+var pointY400145= new L.LatLng(37.7140269,140.4538421);
+var pointX400146= new L.LatLng(37.7181007,140.454443);
+var pointW400147= new L.LatLng(37.7299813,140.4569321);
+var pointA400148= new L.LatLng(37.742403,140.4589062);
+var pointB400149= new L.LatLng(37.7481041,140.4586487);
+var pointC400150= new L.LatLng(37.7538726,140.4588203);
+var pointD400151= new L.LatLng(37.7578763,140.4585628);
+var pointE400152= new L.LatLng(37.765951,140.4591636);
+var pointF400153= new L.LatLng(37.7708361,140.4607086);
+var pointG400154= new L.LatLng(37.7738891,140.4619961);
+var pointH400155= new L.LatLng(37.7944428,140.4748707);
+var pointI400156= new L.LatLng(37.8106512,140.484827);
+var pointJ400157= new L.LatLng(37.8329572,140.5001049);
+var pointK400158= new L.LatLng(37.8378379,140.5037956);
+var pointN400159= new L.LatLng(37.8427182,140.5072288);
+var pointO400160= new L.LatLng(37.8524779,140.5151253);
+var pointP400161= new L.LatLng(37.878904,140.535553);
+var pointQ400162= new L.LatLng(37.9135146,140.5649929);
+var pointR400163= new L.LatLng(37.957584,140.6013851);
+var pointS400164= new L.LatLng(38.0037236,140.6402664);
+var pointZ400165= new L.LatLng(38.007308,140.6437855);
+var pointY400166= new L.LatLng(38.0517942,140.7015495);
+var pointX400167= new L.LatLng(38.1152315,140.7867794);
+var pointW400168= new L.LatLng(38.1337997,140.8120136);
+var pointA400169= new L.LatLng(38.1763198,140.8688335);
+var pointB400170= new L.LatLng(38.1857653,140.8767299);
+var pointC400171= new L.LatLng(38.2011455,140.8822231);
+var pointD400172= new L.LatLng(38.2116668,140.8832531);
+var pointE400173= new L.LatLng(38.2243444,140.8846264);
+var pointF400174= new L.LatLng(38.2316263,140.8865146);
+var pointG400175= new L.LatLng(38.2355366,140.8913212);
+var pointH400176= new L.LatLng(38.2386378,140.8945827);
+var pointI400177= new L.LatLng(38.2463227,140.8928661);
+var pointJ400178= new L.LatLng(38.2491537,140.8908062);
+var pointK400179= new L.LatLng(38.2542763,140.8835964);
+var pointN400180= new L.LatLng(38.2562983,140.8820515);
+var pointO400181= new L.LatLng(38.263577,140.8830814);
+var pointP400182= new L.LatLng(38.2662726,140.886858);
+var pointQ400183= new L.LatLng(38.2693724,140.897501);
+var pointR400184= new L.LatLng(38.2701811,140.9047108);
+var pointS400185= new L.LatLng(38.2716635,140.9112339);
+var pointZ400186= new L.LatLng(38.2784016,140.9239368);
+var pointY400187= new L.LatLng(38.2926844,140.9471111);
+var pointX400188= new L.LatLng(38.2971303,140.9529476);
+var pointW400189= new L.LatLng(38.3027884,140.9579258);
+var pointA400190= new L.LatLng(38.311544,140.9642773);
+var pointB400191= new L.LatLng(38.3157194,140.9666805);
+var pointC400192= new L.LatLng(38.3224534,140.9683971);
+var pointD400193= new L.LatLng(38.3289175,140.9687404);
+var pointE400194= new L.LatLng(38.3449405,140.9680538);
+var pointF400195= new L.LatLng(38.4072485,140.9642773);
+var pointG400196= new L.LatLng(38.4924815,140.9586124);
+var pointH400197= new L.LatLng(38.5495609,140.961874);
+var pointI400198= new L.LatLng(38.559629,140.9647922);
+var pointJ400199= new L.LatLng(38.5836526,140.971487);
+var pointK400200= new L.LatLng(38.6285913,141.0025577);
+var pointN400201= new L.LatLng(38.6363689,141.0080509);
+var pointO400202= new L.LatLng(38.6732338,141.0291653);
+var pointP400203= new L.LatLng(38.7444969,141.0691624);
+var pointQ400204= new L.LatLng(38.7851867,141.092165);
+var pointR400205= new L.LatLng(38.8052554,141.0976581);
+var pointS400206= new L.LatLng(38.8644919,141.1163692);
+var pointZ400207= new L.LatLng(38.9073842,141.1311321);
+var pointY400208= new L.LatLng(38.9242133,141.1379986);
+var pointX400209= new L.LatLng(39.054837,141.1870937);
+var pointW400210= new L.LatLng(39.0808262,141.1963634);
+var pointA400211= new L.LatLng(39.0880215,141.1977367);
+var pointB400212= new L.LatLng(39.0938838,141.1968784);
+var pointC400213= new L.LatLng(39.135439,141.1927585);
+var pointD400214= new L.LatLng(39.1494183,141.1870937);
+var pointE400215= new L.LatLng(39.1685856,141.1802273);
+var pointF400216= new L.LatLng(39.1729773,141.1776523);
+var pointG400217= new L.LatLng(39.1804293,141.1709575);
+var pointH400218= new L.LatLng(39.2037119,141.1484699);
+var pointI400219= new L.LatLng(39.2339012,141.1192875);
+var pointJ400220= new L.LatLng(39.2409479,141.1149959);
+var pointK400221= new L.LatLng(39.2490574,141.112421);
+var pointN400222= new L.LatLng(39.2566343,141.1120777);
+var pointO400223= new L.LatLng(39.2840106,141.124094);
+var pointP400224= new L.LatLng(39.309384,141.1398868);
+var pointQ400225= new L.LatLng(39.4143662,141.1766224);
+var pointR400226= new L.LatLng(39.4198035,141.177824);
+var pointS400227= new L.LatLng(39.4257707,141.1771374);
+var pointZ400228= new L.LatLng(39.4464532,141.1762791);
+var pointY400229= new L.LatLng(39.5179988,141.1730175);
+var pointX400230= new L.LatLng(39.5244873,141.1719875);
+var pointW400231= new L.LatLng(39.5316371,141.1690693);
+var pointA400232= new L.LatLng(39.5430224,141.1644344);
+var pointB400233= new L.LatLng(39.5534793,141.1606579);
+var pointC400234= new L.LatLng(39.5888094,141.1534481);
+var pointD400235= new L.LatLng(39.627427,141.1452083);
+var pointE400236= new L.LatLng(39.6541292,141.146925);
+var pointF400237= new L.LatLng(39.6837276,141.1484699);
+var pointG400238= new L.LatLng(39.6890117,141.1465816);
+var pointH400239= new L.LatLng(39.6954842,141.1422901);
+var pointI400240= new L.LatLng(39.7064464,141.1302738);
+var pointJ400241= new L.LatLng(39.7166145,141.1201458);
+var pointK400242= new L.LatLng(39.6971044,141.1411532);
+var pointN400243= new L.LatLng(39.7040383,141.1342009);
+var pointO400244= new L.LatLng(39.7136786,141.1233863);
+var pointP400245= new L.LatLng(39.7180362,141.1185797);
+var pointQ400246= new L.LatLng(39.7214031,141.1177214);
+var pointR400247= new L.LatLng(39.7245719,141.1178073);
+var pointS400248= new L.LatLng(39.7296548,141.1210688);
+var pointZ400249= new L.LatLng(39.7736693,141.1445864);
+var pointY400250= new L.LatLng(39.7941162,141.1514529);
+var pointX400251= new L.LatLng(39.8051945,141.1596926);
+var pointW400252= new L.LatLng(39.8268186,141.1786612);
+var pointA400253= new L.LatLng(39.8432298,141.1842402);
+var pointB400254= new L.LatLng(39.8413846,141.1870726);
+var pointC400255= new L.LatLng(39.8602301,141.1943682);
+var pointD400256= new L.LatLng(39.9169991,141.2171992);
+var pointE400257= new L.LatLng(39.9260172,141.2197741);
+var pointF400258= new L.LatLng(39.933652,141.2197741);
+var pointG400259= new L.LatLng(39.9547751,141.2180575);
+var pointH400260= new L.LatLng(39.9593805,141.2176284);
+var pointI400261= new L.LatLng(39.9665511,141.2184867);
+var pointJ400262= new L.LatLng(39.9746419,141.2192591);
+var pointK400263= new L.LatLng(39.9834551,141.2227782);
+var pointN400264= new L.LatLng(39.9934508,141.2317046);
+var pointO400265= new L.LatLng(40.0021958,141.2412318);
+var pointP400266= new L.LatLng(40.0080472,141.2464675);
+var pointQ400267= new L.LatLng(40.013635,141.2493857);
+var pointR400268= new L.LatLng(40.0178421,141.2511023);
+var pointS400269= new L.LatLng(40.134812,141.2759932);
+var pointZ400270= new L.LatLng(40.1411112,141.276594);
+var pointY400271= new L.LatLng(40.1488532,141.2763366);
+var pointX400272= new L.LatLng(40.1565944,141.2755641);
+var pointW400273= new L.LatLng(40.165712,141.2739333);
+var pointA400274= new L.LatLng(40.1958769,141.2692984);
+var pointB400275= new L.LatLng(40.2132483,141.2673243);
+var pointC400276= new L.LatLng(40.219868,141.2674102);
+var pointD400277= new L.LatLng(40.2258317,141.2683543);
+var pointE400278= new L.LatLng(40.2336296,141.2710151);
+var pointF400279= new L.LatLng(40.2399196,141.273075);
+var pointG400280= new L.LatLng(40.2611443,141.2867221);
+var pointH400281= new L.LatLng(40.2673008,141.2897261);
+var pointI400282= new L.LatLng(40.2739807,141.2914428);
+var pointJ400283= new L.LatLng(40.278761,141.2916144);
+var pointK400284= new L.LatLng(40.2835409,141.2912711);
+var pointN400285= new L.LatLng(40.2959803,141.2894687);
+var pointO400286= new L.LatLng(40.3027882,141.2897261);
+var pointP400287= new L.LatLng(40.3063228,141.2905844);
+var pointQ400288= new L.LatLng(40.3086137,141.2914428);
+var pointR400289= new L.LatLng(40.3120825,141.2929019);
+var pointS400290= new L.LatLng(40.380311,141.3443145);
+var pointZ400291= new L.LatLng(40.4476212,141.3947829);
+var pointY400292= new L.LatLng(40.455067,141.3989028);
+var pointX400293= new L.LatLng(40.4624466,141.4025935);
+var pointW400294= new L.LatLng(40.4678665,141.4049968);
+var pointA400295= new L.LatLng(40.4831444,141.4101466);
+var pointB400296= new L.LatLng(40.4889542,141.413494);
+var pointC400297= new L.LatLng(40.4946331,141.4170989);
+var pointD400298= new L.LatLng(40.5215195,141.441904);
+var pointE400299= new L.LatLng(40.5257603,141.444393);
+var pointF400300= new L.LatLng(40.5329365,141.4465388);
+var pointG400301= new L.LatLng(40.5395248,141.446968);
+var pointH400302= new L.LatLng(40.5491778,141.4461097);
+var pointI400303= new L.LatLng(40.560264,141.4372691);
+var pointJ400304= new L.LatLng(40.5675668,141.4303168);
+var pointK400305= new L.LatLng(40.5720003,141.4239653);
+var pointN400306= new L.LatLng(40.6138431,141.3548716);
+var pointO400307= new L.LatLng(40.6693974,141.2735041);
+var pointP400308= new L.LatLng(40.6761676,141.2622603);
+var pointQ400309= new L.LatLng(40.6877534,141.2359961);
+var pointR400310= new L.LatLng(40.7071454,141.1900767);
+var pointS400311= new L.LatLng(40.7193113,141.1554869);
+var pointZ400312= new L.LatLng(40.7252958,141.1388358);
+var pointY400313= new L.LatLng(40.7299139,141.1292228);
+var pointX400314= new L.LatLng(40.734987,141.1215838);
+var pointW400315= new L.LatLng(40.7435713,141.1090525);
+var pointA400316= new L.LatLng(40.7474079,141.1019286);
+var pointB400317= new L.LatLng(40.7511793,141.095663);
+var pointC400318= new L.LatLng(40.7541702,141.088024);
+var pointD400319= new L.LatLng(40.757616,141.0775527);
+var pointE400320= new L.LatLng(40.7606717,141.0646781);
+var pointF400321= new L.LatLng(40.7649623,141.0345515);
+var pointG400322= new L.LatLng(40.7787425,140.9397944);
+var pointH400323= new L.LatLng(40.7856965,140.8941325);
+var pointI400324= new L.LatLng(40.7869313,140.882202);
+var pointJ400325= new L.LatLng(40.7871912,140.8674392);
+var pointK400326= new L.LatLng(40.7862164,140.8572253);
+var pointN400327= new L.LatLng(40.7850467,140.8471831);
+var pointO400328= new L.LatLng(40.7817972,140.8366259);
+var pointP400329= new L.LatLng(40.7743878,140.8147391);
+var pointQ400330= new L.LatLng(40.7650923,140.7878741);
+var pointR400331= new L.LatLng(40.7636622,140.7779177);
+var pointZ400332= new L.LatLng(40.7634021,140.7697638);
+var pointY400333= new L.LatLng(40.7643772,140.7621249);
+var pointX400334= new L.LatLng(40.7730878,140.7295951);
+var pointW400335= new L.LatLng(40.7767927,140.7178363);
+var pointA400336= new L.LatLng(40.7819272,140.7083949);
+var pointB400337= new L.LatLng(40.7874512,140.703245);
+var pointC400338= new L.LatLng(40.7969384,140.6955203);
+var pointD400339= new L.LatLng(40.8068791,140.6920012);
+var pointE400340= new L.LatLng(40.8103222,140.6923446);
+var pointF400341= new L.LatLng(40.8159088,140.6928595);
+var pointG400342= new L.LatLng(40.8218847,140.6938895);
+var pointH400343= new L.LatLng(40.8280548,140.6938037);
+
+";
+
+
+if(isset($_GET['traintype'])) {
+    if ($_GET['traintype'] == 'nasuno')
+        echo "var tohokuPointList = [pointA400001,pointB400002,pointC400003,pointD400004,pointE400005,pointF400006,pointG400007,pointH400008,pointI400009,pointJ400010,pointK400011,pointN400012,pointO400013,pointP400014,pointQ400015,pointR400016,pointS400017,pointZ400018,pointY400019,pointX400020,pointW400021,pointA400022,pointB400023,pointC400024,pointD400025,pointE400026,pointF400027,pointG400028,pointH400029,pointI400030,pointJ400031,pointK400032,pointN400033,pointO400034,pointP400035,pointQ400036,pointR400037,pointS400038,pointZ400039,pointY400040,pointX400041,pointW400042,pointA400043,pointB400044,pointC400045,pointD400046,pointE400047,pointF400048,pointG400049,pointH400050,pointI400051,pointJ400052,pointK400053,pointN400054,pointO400055,pointP400056,pointQ400057,pointR400058,pointS400059,pointZ400060,pointY400061,pointX400062,pointW400063,pointA400064,pointB400065,pointC400066,pointD400067,pointE400068,pointF400069,pointG400070,pointH400071,pointI400072,pointJ400073,pointK400074,pointN400075,pointO400076,pointP400077,pointQ400078,pointR400079,pointS400080,pointZ400081,pointY400082,pointX400083,pointW400084,pointA400085,pointB400086,pointC400087,pointD400088,pointE400089,pointF400090,pointG400091,pointH400092,pointI400093,pointJ400094,pointK400095,pointN400096,pointO400097,pointP400098,pointQ400099,pointR400100,pointS400101,pointZ400102,pointY400103,pointX400104,pointW400105,pointA400106,pointB400107,pointC400108,pointD400109,pointE400110,pointF400111,pointG400112,pointH400113,pointI400114,pointJ400115,pointK400116,pointN400117,pointO400118,pointP400119,pointQ400120,pointR400121,pointS400122,pointZ400123,pointY400124];";
+    elseif($_GET['traintype'] == 'yamabiko')
+          echo "var tohokuPointList = [pointA400001,pointB400002,pointC400003,pointD400004,pointE400005,pointF400006,pointG400007,pointH400008,pointI400009,pointJ400010,pointK400011,pointN400012,pointO400013,pointP400014,pointQ400015,pointR400016,pointS400017,pointZ400018,pointY400019,pointX400020,pointW400021,pointA400022,pointB400023,pointC400024,pointD400025,pointE400026,pointF400027,pointG400028,pointH400029,pointI400030,pointJ400031,pointK400032,pointN400033,pointO400034,pointP400035,pointQ400036,pointR400037,pointS400038,pointZ400039,pointY400040,pointX400041,pointW400042,pointA400043,pointB400044,pointC400045,pointD400046,pointE400047,pointF400048,pointG400049,pointH400050,pointI400051,pointJ400052,pointK400053,pointN400054,pointO400055,pointP400056,pointQ400057,pointR400058,pointS400059,pointZ400060,pointY400061,pointX400062,pointW400063,pointA400064,pointB400065,pointC400066,pointD400067,pointE400068,pointF400069,pointG400070,pointH400071,pointI400072,pointJ400073,pointK400074,pointN400075,pointO400076,pointP400077,pointQ400078,pointR400079,pointS400080,pointZ400081,pointY400082,pointX400083,pointW400084,pointA400085,pointB400086,pointC400087,pointD400088,pointE400089,pointF400090,pointG400091,pointH400092,pointI400093,pointJ400094,pointK400095,pointN400096,pointO400097,pointP400098,pointQ400099,pointR400100,pointS400101,pointZ400102,pointY400103,pointX400104,pointW400105,pointA400106,pointB400107,pointC400108,pointD400109,pointE400110,pointF400111,pointG400112,pointH400113,pointI400114,pointJ400115,pointK400116,pointN400117,pointO400118,pointP400119,pointQ400120,pointR400121,pointS400122,pointZ400123,pointY400124,pointX400125,pointW400126,pointA400127,pointB400128,pointC400129,pointD400130,pointE400131,pointF400132,pointG400133,pointH400134,pointI400135,pointJ400136,pointK400137,pointN400138,pointO400139,pointP400140,pointQ400141,pointR400142,pointS400143,pointZ400144,pointY400145,pointX400146,pointW400147,pointA400148,pointB400149,pointC400150,pointD400151,pointE400152,pointF400153,pointG400154,pointH400155,pointI400156,pointJ400157,pointK400158,pointN400159,pointO400160,pointP400161,pointQ400162,pointR400163,pointS400164,pointZ400165,pointY400166,pointX400167,pointW400168,pointA400169,pointB400170,pointC400171,pointD400172,pointE400173,pointF400174,pointG400175,pointH400176,pointI400177,pointJ400178,pointK400179,pointN400180,pointO400181,pointP400182,pointQ400183,pointR400184,pointS400185,pointZ400186,pointY400187,pointX400188,pointW400189,pointA400190,pointB400191,pointC400192,pointD400193,pointE400194,pointF400195,pointG400196,pointH400197,pointI400198,pointJ400199,pointK400200,pointN400201,pointO400202,pointP400203,pointQ400204,pointR400205,pointS400206,pointZ400207,pointY400208,pointX400209,pointW400210,pointA400211,pointB400212,pointC400213,pointD400214,pointE400215,pointF400216,pointG400217,pointH400218,pointI400219,pointJ400220,pointK400221,pointN400222,pointO400223,pointP400224,pointQ400225,pointR400226,pointS400227,pointZ400228,pointY400229,pointX400230,pointW400231,pointA400232,pointB400233,pointC400234,pointD400235,pointE400236,pointF400237,pointG400238,pointH400239,pointI400240];";
+    elseif($_GET['traintype'] == 'hayabusa')
+    echo "var tohokuPointList = [pointA400001,pointB400002,pointC400003,pointD400004,pointE400005,pointF400006,pointG400007,pointH400008,pointI400009,pointJ400010,pointK400011,pointN400012,pointO400013,pointP400014,pointQ400015,pointR400016,pointS400017,pointZ400018,pointY400019,pointX400020,pointW400021,pointA400022,pointB400023,pointC400024,pointD400025,pointE400026,pointF400027,pointG400028,pointH400029,pointI400030,pointJ400031,pointK400032,pointN400033,pointO400034,pointP400035,pointQ400036,pointR400037,pointS400038,pointZ400039,pointY400040,pointX400041,pointW400042,pointA400043,pointB400044,pointC400045,pointD400046,pointE400047,pointF400048,pointG400049,pointH400050,pointI400051,pointJ400052,pointK400053,pointN400054,pointO400055,pointP400056,pointQ400057,pointR400058,pointS400059,pointZ400060,pointY400061,pointX400062,pointW400063,pointA400064,pointB400065,pointC400066,pointD400067,pointE400068,pointF400069,pointG400070,pointH400071,pointI400072,pointJ400073,pointK400074,pointN400075,pointO400076,pointP400077,pointQ400078,pointR400079,pointS400080,pointZ400081,pointY400082,pointX400083,pointW400084,pointA400085,pointB400086,pointC400087,pointD400088,pointE400089,pointF400090,pointG400091,pointH400092,pointI400093,pointJ400094,pointK400095,pointN400096,pointO400097,pointP400098,pointQ400099,pointR400100,pointS400101,pointZ400102,pointY400103,pointX400104,pointW400105,pointA400106,pointB400107,pointC400108,pointD400109,pointE400110,pointF400111,pointG400112,pointH400113,pointI400114,pointJ400115,pointK400116,pointN400117,pointO400118,pointP400119,pointQ400120,pointR400121,pointS400122,pointZ400123,pointY400124,pointX400125,pointW400126,pointA400127,pointB400128,pointC400129,pointD400130,pointE400131,pointF400132,pointG400133,pointH400134,pointI400135,pointJ400136,pointK400137,pointN400138,pointO400139,pointP400140,pointQ400141,pointR400142,pointS400143,pointZ400144,pointY400145,pointX400146,pointW400147,pointA400148,pointB400149,pointC400150,pointD400151,pointE400152,pointF400153,pointG400154,pointH400155,pointI400156,pointJ400157,pointK400158,pointN400159,pointO400160,pointP400161,pointQ400162,pointR400163,pointS400164,pointZ400165,pointY400166,pointX400167,pointW400168,pointA400169,pointB400170,pointC400171,pointD400172,pointE400173,pointF400174,pointG400175,pointH400176,pointI400177,pointJ400178,pointK400179,pointN400180,pointO400181,pointP400182,pointQ400183,pointR400184,pointS400185,pointZ400186,pointY400187,pointX400188,pointW400189,pointA400190,pointB400191,pointC400192,pointD400193,pointE400194,pointF400195,pointG400196,pointH400197,pointI400198,pointJ400199,pointK400200,pointN400201,pointO400202,pointP400203,pointQ400204,pointR400205,pointS400206,pointZ400207,pointY400208,pointX400209,pointW400210,pointA400211,pointB400212,pointC400213,pointD400214,pointE400215,pointF400216,pointG400217,pointH400218,pointI400219,pointJ400220,pointK400221,pointN400222,pointO400223,pointP400224,pointQ400225,pointR400226,pointS400227,pointZ400228,pointY400229,pointX400230,pointW400231,pointA400232,pointB400233,pointC400234,pointD400235,pointE400236,pointF400237,pointG400238,pointH400239,pointI400240,pointJ400241,pointK400242,pointN400243,pointO400244,pointP400245,pointQ400246,pointR400247,pointS400248,pointZ400249,pointY400250,pointX400251,pointW400252,pointA400253,pointB400254,pointC400255,pointD400256,pointE400257,pointF400258,pointG400259,pointH400260,pointI400261,pointJ400262,pointK400263,pointN400264,pointO400265,pointP400266,pointQ400267,pointR400268,pointS400269,pointZ400270,pointY400271,pointX400272,pointW400273,pointA400274,pointB400275,pointC400276,pointD400277,pointE400278,pointF400279,pointG400280,pointH400281,pointI400282,pointJ400283,pointK400284,pointN400285,pointO400286,pointP400287,pointQ400288,pointR400289,pointS400290,pointZ400291,pointY400292,pointX400293,pointW400294,pointA400295,pointB400296,pointC400297,pointD400298,pointE400299,pointF400300,pointG400301,pointH400302,pointI400303,pointJ400304,pointK400305,pointN400306,pointO400307,pointP400308,pointQ400309,pointR400310,pointS400311,pointZ400312,pointY400313,pointX400314,pointW400315,pointA400316,pointB400317,pointC400318,pointD400319,pointE400320,pointF400321,pointG400322,pointH400323,pointI400324,pointJ400325,pointK400326,pointN400327,pointO400328,pointP400329,pointQ400330,pointR400331,pointZ400332,pointY400333,pointX400334,pointW400335,pointA400336,pointB400337,pointC400338,pointD400339,pointE400340,pointF400341,pointG400342,pointH400343];";
+
+
+
+else
+    echo "var tohokuPointList = [pointA400001,pointB400002,pointC400003,pointD400004,pointE400005,pointF400006,pointG400007,pointH400008,pointI400009,pointJ400010,pointK400011,pointN400012,pointO400013,pointP400014,pointQ400015,pointR400016,pointS400017,pointZ400018,pointY400019,pointX400020,pointW400021,pointA400022,pointB400023,pointC400024,pointD400025,pointE400026,pointF400027,pointG400028,pointH400029,pointI400030,pointJ400031,pointK400032,pointN400033,pointO400034,pointP400035,pointQ400036,pointR400037,pointS400038,pointZ400039,pointY400040,pointX400041,pointW400042,pointA400043,pointB400044,pointC400045,pointD400046,pointE400047,pointF400048,pointG400049,pointH400050,pointI400051,pointJ400052,pointK400053,pointN400054,pointO400055,pointP400056,pointQ400057,pointR400058,pointS400059,pointZ400060,pointY400061,pointX400062,pointW400063,pointA400064,pointB400065,pointC400066,pointD400067,pointE400068,pointF400069,pointG400070,pointH400071,pointI400072,pointJ400073,pointK400074,pointN400075,pointO400076,pointP400077,pointQ400078,pointR400079,pointS400080,pointZ400081,pointY400082,pointX400083,pointW400084,pointA400085,pointB400086,pointC400087,pointD400088,pointE400089,pointF400090,pointG400091,pointH400092,pointI400093,pointJ400094,pointK400095,pointN400096,pointO400097,pointP400098,pointQ400099,pointR400100,pointS400101,pointZ400102,pointY400103,pointX400104,pointW400105,pointA400106,pointB400107,pointC400108,pointD400109,pointE400110,pointF400111,pointG400112,pointH400113,pointI400114,pointJ400115,pointK400116,pointN400117,pointO400118,pointP400119,pointQ400120,pointR400121,pointS400122,pointZ400123,pointY400124,pointX400125,pointW400126,pointA400127,pointB400128,pointC400129,pointD400130,pointE400131,pointF400132,pointG400133,pointH400134,pointI400135,pointJ400136,pointK400137,pointN400138,pointO400139,pointP400140,pointQ400141,pointR400142,pointS400143,pointZ400144,pointY400145,pointX400146,pointW400147,pointA400148,pointB400149,pointC400150,pointD400151,pointE400152,pointF400153,pointG400154,pointH400155,pointI400156,pointJ400157,pointK400158,pointN400159,pointO400160,pointP400161,pointQ400162,pointR400163,pointS400164,pointZ400165,pointY400166,pointX400167,pointW400168,pointA400169,pointB400170,pointC400171,pointD400172,pointE400173,pointF400174,pointG400175,pointH400176,pointI400177,pointJ400178,pointK400179,pointN400180,pointO400181,pointP400182,pointQ400183,pointR400184,pointS400185,pointZ400186,pointY400187,pointX400188,pointW400189,pointA400190,pointB400191,pointC400192,pointD400193,pointE400194,pointF400195,pointG400196,pointH400197,pointI400198,pointJ400199,pointK400200,pointN400201,pointO400202,pointP400203,pointQ400204,pointR400205,pointS400206,pointZ400207,pointY400208,pointX400209,pointW400210,pointA400211,pointB400212,pointC400213,pointD400214,pointE400215,pointF400216,pointG400217,pointH400218,pointI400219,pointJ400220,pointK400221,pointN400222,pointO400223,pointP400224];";
+
+
+}
+else
+    echo "var tohokuPointList = [pointA400001,pointB400002,pointC400003,pointD400004,pointE400005,pointF400006,pointG400007,pointH400008,pointI400009,pointJ400010,pointK400011,pointN400012,pointO400013,pointP400014,pointQ400015,pointR400016,pointS400017,pointZ400018,pointY400019,pointX400020,pointW400021,pointA400022,pointB400023,pointC400024,pointD400025,pointE400026,pointF400027,pointG400028,pointH400029,pointI400030,pointJ400031,pointK400032,pointN400033,pointO400034,pointP400035,pointQ400036,pointR400037,pointS400038,pointZ400039,pointY400040,pointX400041,pointW400042,pointA400043,pointB400044,pointC400045,pointD400046,pointE400047,pointF400048,pointG400049,pointH400050,pointI400051,pointJ400052,pointK400053,pointN400054,pointO400055,pointP400056,pointQ400057,pointR400058,pointS400059,pointZ400060,pointY400061,pointX400062,pointW400063,pointA400064,pointB400065,pointC400066,pointD400067,pointE400068,pointF400069,pointG400070,pointH400071,pointI400072,pointJ400073,pointK400074,pointN400075,pointO400076,pointP400077,pointQ400078,pointR400079,pointS400080,pointZ400081,pointY400082,pointX400083,pointW400084,pointA400085,pointB400086,pointC400087,pointD400088,pointE400089,pointF400090,pointG400091,pointH400092,pointI400093,pointJ400094,pointK400095,pointN400096,pointO400097,pointP400098,pointQ400099,pointR400100,pointS400101,pointZ400102,pointY400103,pointX400104,pointW400105,pointA400106,pointB400107,pointC400108,pointD400109,pointE400110,pointF400111,pointG400112,pointH400113,pointI400114,pointJ400115,pointK400116,pointN400117,pointO400118,pointP400119,pointQ400120,pointR400121,pointS400122,pointZ400123,pointY400124,pointX400125,pointW400126,pointA400127,pointB400128,pointC400129,pointD400130,pointE400131,pointF400132,pointG400133,pointH400134,pointI400135,pointJ400136,pointK400137,pointN400138,pointO400139,pointP400140,pointQ400141,pointR400142,pointS400143,pointZ400144,pointY400145,pointX400146,pointW400147,pointA400148,pointB400149,pointC400150,pointD400151,pointE400152,pointF400153,pointG400154,pointH400155,pointI400156,pointJ400157,pointK400158,pointN400159,pointO400160,pointP400161,pointQ400162,pointR400163,pointS400164,pointZ400165,pointY400166,pointX400167,pointW400168,pointA400169,pointB400170,pointC400171,pointD400172,pointE400173,pointF400174,pointG400175,pointH400176,pointI400177,pointJ400178,pointK400179,pointN400180,pointO400181,pointP400182,pointQ400183,pointR400184,pointS400185,pointZ400186,pointY400187,pointX400188,pointW400189,pointA400190,pointB400191,pointC400192,pointD400193,pointE400194,pointF400195,pointG400196,pointH400197,pointI400198,pointJ400199,pointK400200,pointN400201,pointO400202,pointP400203,pointQ400204,pointR400205,pointS400206,pointZ400207,pointY400208,pointX400209,pointW400210,pointA400211,pointB400212,pointC400213,pointD400214,pointE400215,pointF400216,pointG400217,pointH400218,pointI400219,pointJ400220,pointK400221,pointN400222,pointO400223,pointP400224,pointQ400225,pointR400226,pointS400227,pointZ400228,pointY400229,pointX400230,pointW400231,pointA400232,pointB400233,pointC400234,pointD400235,pointE400236,pointF400237,pointG400238,pointH400239,pointI400240,pointJ400241,pointK400242,pointN400243,pointO400244,pointP400245,pointQ400246,pointR400247,pointS400248,pointZ400249,pointY400250,pointX400251,pointW400252,pointA400253,pointB400254,pointC400255,pointD400256,pointE400257,pointF400258,pointG400259,pointH400260,pointI400261,pointJ400262,pointK400263,pointN400264,pointO400265,pointP400266,pointQ400267,pointR400268,pointS400269,pointZ400270,pointY400271,pointX400272,pointW400273,pointA400274,pointB400275,pointC400276,pointD400277,pointE400278,pointF400279,pointG400280,pointH400281,pointI400282,pointJ400283,pointK400284,pointN400285,pointO400286,pointP400287,pointQ400288,pointR400289,pointS400290,pointZ400291,pointY400292,pointX400293,pointW400294,pointA400295,pointB400296,pointC400297,pointD400298,pointE400299,pointF400300,pointG400301,pointH400302,pointI400303,pointJ400304,pointK400305,pointN400306,pointO400307,pointP400308,pointQ400309,pointR400310,pointS400311,pointZ400312,pointY400313,pointX400314,pointW400315,pointA400316,pointB400317,pointC400318,pointD400319,pointE400320,pointF400321,pointG400322,pointH400323,pointI400324,pointJ400325,pointK400326,pointN400327,pointO400328,pointP400329,pointQ400330,pointR400331,pointZ400332,pointY400333,pointX400334,pointW400335,pointA400336,pointB400337,pointC400338,pointD400339,pointE400340,pointF400341,pointG400342,pointH400343];";
+
+
+echo "
+
+var tohokupolyline = new L.Polyline(tohokuPointList, {
+    color: '#edcd00',
+    weight: 5,
+    opacity: 0.9,
+    smoothFactor: 1
+
+});
+
+
+
+tohokupolyline.on('mouseout', function(e) {
+    var layer = e.target;
+    mouseout: highlightFeature('out');
+    layer.setStyle({
+        color: '#edcd00',
+        opacity: 0.9,
+        weight: 5
+
+    });
+});
+
+
+
+
+tohokupolyline.on('click', function(e) {
+    var layer = e.target;
+    window.open('shinkansenmap.php?route=tohoku','_self');
+
+    layer.setStyle({
+        color: '#ed0095',
+        opacity: 0.9,
+        weight: 5
+
+    });
+});
+
+
+tohokupolyline.on('mouseover', function(e) {
+    var layer = e.target;
+    var myname='line:Tohoku Shinkansen'
+    mouseover:  highlightFeature(myname);
+
+
+    layer.setStyle({
+        color: '#edcd00',
+        opacity: 1,
+        weight: 5
+
+    });
+});
+
+
+// method that we will use to update the control based on feature properties passed
+
+function tohokupolyline(e) {
+    const details=[];
+
+    if(e=='out'){
+
+        details['name']='';
+        mymapinfo.update(details);
+    }
+    else{
+
+
+        details['name']='Tohoku Shinkansen';
+
+        mymapinfo.update(details);
+    }
+
+}
+
+
+
+
+tohokupolyline.addTo(map);
+";
